@@ -14,7 +14,7 @@ Programs Required to run:
 3.  falco
 
 Python Packages Used
-os
+* os
 re
 sys
 subprocess
