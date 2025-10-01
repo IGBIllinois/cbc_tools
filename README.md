@@ -9,20 +9,20 @@ A program to take project data as created by bcltofastq from cbc_scripts and pre
 4.  Makes .tar.gz files of the falco data
 
 Programs Required to run:
-1.  tar
-2.  pigz
-3.  falco
+* tar
+* pigz
+* falco
 
 Python Packages Used
 * os
-re
-sys
-subprocess
-xlsxwriter
-json
-xml.etree.ElementTree
-csv
-argparse
-pathlib
-shutil
-time
+*re
+*sys
+*subprocess
+*xlsxwriter
+*json
+*xml.etree.ElementTree
+*csv
+*argparse
+*pathlib
+*shutil
+*time
