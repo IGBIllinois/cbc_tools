@@ -11,7 +11,6 @@ import argparse
 from pathlib import Path
 import shutil
 import time
-import pprint
 
 #used to require an existing file in argparse
 def file_path(string):
@@ -365,5 +364,6 @@ if __name__ == "__main__":
         for project in files:
             if args.verbose: print(os.path.join(args.outputdir,project)+"_falco.tar.gz")
             subprocess.run("cd "+args.outputdir+" && tar -czf "+project+"_falco.tar.gz "+os.path.join('falco',project), shell=True)
-    #create the report - in progress - working on formatting
+    
+    #create the report
     makeReport(commandResults,args.outputdir+"/report.xlsx",args.inputdir+'/Protocol.txt',args.inputdir+"/DownloadInstructions.txt",sequencerInfo[sequencer],runNumber, numCycles)
