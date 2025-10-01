@@ -11,12 +11,12 @@ A program to take project data as created by bcltofastq from cbc_scripts and pre
 3.  Uses falco to do QC on the fastq files
 4.  Makes .tar.gz files of the falco data
 
-Programs Required to run:
+### Programs Required to run:
 * tar
 * pigz
 * falco
 
-Python Packages Used
+### Python Packages Used:
 * os
 * re
 * sys
@@ -30,5 +30,5 @@ Python Packages Used
 * shutil
 * time
 
-Setting the Sequencer Info
+### Setting the Sequencer Info
 Sequencer data is kept in config/sequencers.json.  The environmental variable SEQUENCERS should point to this file to keep from having to pass a command line variable to it every time the script is run.
