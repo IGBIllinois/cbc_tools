@@ -1,3 +1,6 @@
+[![Build Status](https://github.com/IGBIllinois/cbc_tools/actions/workflows/main.yml/badge.svg)](https://github.com/IGBIllinois/cbc_tools/actions/workflows/main.yml)
+
+
 # cbc_tools
 Tools written by CNRG for use by the Carver Biotech Center
 
