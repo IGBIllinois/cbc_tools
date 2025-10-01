@@ -29,3 +29,6 @@ Python Packages Used
 * pathlib
 * shutil
 * time
+
+Setting the Sequencer Info
+Sequencer data is kept in config/sequencers.json.  The environmental variable SEQUENCERS should point to this file to keep from having to pass a command line variable to it every time the script is run.
