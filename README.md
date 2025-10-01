@@ -15,14 +15,14 @@ Programs Required to run:
 
 Python Packages Used
 * os
-*re
-*sys
-*subprocess
-*xlsxwriter
-*json
-*xml.etree.ElementTree
-*csv
-*argparse
-*pathlib
-*shutil
-*time
+* re
+* sys
+* subprocess
+* xlsxwriter
+* json
+* xml.etree.ElementTree
+* csv
+* argparse
+* pathlib
+* shutil
+* time
