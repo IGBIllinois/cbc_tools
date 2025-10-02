@@ -364,6 +364,5 @@ if __name__ == "__main__":
         for project in files:
             if args.verbose: print(os.path.join(args.outputdir,project)+"_falco.tar.gz")
             subprocess.run("cd "+args.outputdir+" && tar -czf "+project+"_falco.tar.gz "+os.path.join('falco',project), shell=True)
-    
-    #create the report
-    makeReport(commandResults,args.outputdir+"/report.xlsx",args.inputdir+'/Protocol.txt',args.inputdir+"/DownloadInstructions.txt",sequencerInfo[sequencer],runNumber, numCycles)
+    #create the report - in progress - working on formatting
+    makeReport(commandResults,args.outputdir+"/report.xlsx",args.inputdir+'/Library_Preparation_and_Sequencing.csv',args.inputdir+"/File_Download_Instructions.csv",sequencerInfo[sequencer],runNumber, numCycles)
